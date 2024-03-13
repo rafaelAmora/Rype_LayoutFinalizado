@@ -1,0 +1,191 @@
+.section-home {
+  width: 100%;
+  height: auto;
+  background-color: #13131d;
+  font-family: Montserrat, sans-serif;
+}
+
+.home {
+  padding: 30px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home > h1 {
+  text-align: center;
+  font-size: 56px;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+.home > p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-register {
+  width: 50%;
+  padding: 12px 24px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  background-color: #7b2f74;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.presentation {
+  background: url(https://rype-app.vercel.app/space.a1a610a6efe3e42d.svg);
+  width: 100%;
+  background-position: center;
+}
+
+.box-image-rocket {
+  display: flex;
+  justify-content: center;
+}
+.img-rocket {
+  top: -132px;
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+p {
+  font-size: 1.1rem;
+  font-family: Rajdhani, sans-serif;
+
+  color: #fff;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.text > h1 {
+  font-size: 56px;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  background: -webkit-linear-gradient(70deg, #620c5a 10%, #cd1875 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards-infos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: 1s;
+  margin-top: 70px;
+  padding-bottom: 100px;
+}
+
+.card_i {
+  margin-top: 30px;
+  width: 350px;
+  height: 330px;
+  border-radius: 5px;
+  border: 2px solid #7b2f74;
+
+  backdrop-filter: blur(5px);
+  position: relative;
+}
+.box-img-phone {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -10%;
+  width: 100%;
+}
+.img-phone {
+  width: 154px;
+  height: 159px;
+}
+
+.text-item {
+  padding-top: 150px;
+  text-align: center;
+}
+.text-item > h3 {
+  color: #b32970;
+
+  font-size: 1.4rem;
+}
+
+.text-item > p {
+  font-family: Rajdhani, sans-serif;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.more-information {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.box-information {
+  width: 80%;
+  background: linear-gradient(90deg, #c72e7c 0%, #be2bb0 100%);
+  border-radius: 5px;
+  top: -40px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+.box-information > h1 {
+  font-size: 1.17rem;
+  color: aliceblue;
+  margin: 0px;
+  font-family: Montserrat, sans-serif;
+}
+
+.button_about {
+  background-color: #13131d;
+  border-radius: 5px;
+  transition: 0.7s;
+  text-transform: uppercase;
+  padding: 8px 26px;
+  margin-left: 5px;
+}
+
+.button_about:hover {
+  background-color: #7b2f74;
+}
+
+@media (max-width: 932px) {
+  .Forms_infos,
+  p {
+    text-align: center;
+  }
+  .img-rocket {
+    width: 80%;
+    height: 80%;
+  }
+  .btn-register {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .img-rocket {
+    top: -100px;
+  }
+  .img-rocket {
+    width: 90%;
+    height: 90%;
+  }
+  .box-information {
+    width: 97%;
+  }
+}

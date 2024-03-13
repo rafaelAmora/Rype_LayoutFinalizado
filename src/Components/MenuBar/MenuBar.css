@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+.menu__top{
+  width: 1120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 280px;
+  
+}
+
+.logos{
+display: flex;
+align-items: center;
+}
+
+.logo1{
+     margin-left: 15px;
+    width: 75px;
+    height: 50px;
+}
+
+.logo2{
+    margin-left: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+
+

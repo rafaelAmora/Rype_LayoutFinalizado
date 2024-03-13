@@ -1,0 +1,10 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.link-no-outline {
+  outline: none;
+  text-decoration: none;
+  color: #737380;
+}
