@@ -65,8 +65,15 @@ p {
   }
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 413px) {
   .Forms-Register {
-    padding: 30px 20px 45px 20px;
+    padding: 30px 30px 45px 30px;
+  }
+}
+
+@media (max-width: 391px) {
+  .Forms-Register {
+    padding: 30px 30px 45px 30px;
   }
 }

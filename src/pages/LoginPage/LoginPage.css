@@ -68,3 +68,9 @@
     display: none;
   }
 }
+@media (min-height: 1025px) {
+  .Background-space {
+    position: fixed;
+      gap: 4%;
+  }
+}
