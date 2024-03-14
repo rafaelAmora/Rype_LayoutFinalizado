@@ -1,4 +1,5 @@
 import "./Forms.css"
+import { Link } from "react-router-dom"
 
 
 export default function Forms (){
@@ -22,7 +23,12 @@ export default function Forms (){
         />
         <p>ESQUECEU A SENHA ?</p>
         <button className="Create__button"> Login</button>
-        <p>Não tem uma conta? Registre-se</p>
+        <p>
+          Não tem uma conta?{" "}
+          <Link to="/RegisterPage" className="link-no-outline">
+            <span id="link-loginRigister-forms">Registre-se</span>
+          </Link>
+        </p>
       </form>
     </div>
   )

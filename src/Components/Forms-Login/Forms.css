@@ -40,21 +40,9 @@ h1 {
   color: white;
 }
 
-.termos-info {
-  display: flex;
-  font-size: 1rem;
-  gap: 10px;
-}
 
-#termos {
-  width: 20px;
-  height: 20px;
 
-  border: 0.2rem solid #fff;
 
-  border-radius: 15%;
-  cursor: pointer;
-}
 
 .Create__button {
   background-color: #c72e7c;

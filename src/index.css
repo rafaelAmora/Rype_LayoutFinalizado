@@ -8,3 +8,25 @@
   text-decoration: none;
   color: #737380;
 }
+
+#link-loginRigister-forms {
+  color: #c72e7c;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.termos-info {
+  display: flex;
+  font-size: 1rem;
+  gap: 6px;
+}
+
+#termos {
+  width: 20px;
+  height: 20px;
+
+  border: 0.2rem solid #fff;
+
+  border-radius: 15%;
+  cursor: pointer;
+}

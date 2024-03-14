@@ -4,9 +4,8 @@
   border-radius: 12px;
   background-color: #1d2333;
   box-shadow: 0 0 60px #0000001f;
-height: 620px;
+  height: 620px;
   top: 10%;
-
 }
 .Forms-Register,
 h1 {
@@ -41,21 +40,9 @@ h1 {
   color: white;
 }
 
-.termos-info {
-  display: flex;
-  font-size: 1rem;
-  gap: 10px;
-}
 
-#termos {
-  width: 20px;
-  height: 20px;
 
-  border: 0.2rem solid #fff;
 
-  border-radius: 15%;
-  cursor: pointer;
-}
 
 .Create__button {
   background-color: #c72e7c;
@@ -72,16 +59,14 @@ p {
   font-family: Rajdhani, sans-serif;
 }
 
-
 @media (max-width: 511px) {
   .Forms-Register {
     width: 100%;
   }
 }
 
-
-@media (max-width: 374px) {
-  .Forms-Register{
-    padding: 30px 40px;
+@media (max-width: 375px) {
+  .Forms-Register {
+    padding: 30px 30px;
   }
 }
