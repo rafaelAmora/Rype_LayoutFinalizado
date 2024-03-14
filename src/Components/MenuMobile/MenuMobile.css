@@ -7,10 +7,8 @@
   flex-direction: column;
   z-index: 100;
   left: -100%;
- transition: 1s;
-  margin-top: 42px;
-  
-  
+  transition: 2s;
+  margin-top: 60px;
 }
 
 .menu-background {
@@ -19,7 +17,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  
+
   z-index: 101;
 }
 
@@ -45,8 +43,12 @@
 
 .container-mobile.menu-open {
   left: 0;
-  margin-top: 58px;
-    transform: translateX(0);
+  margin-top: 60px;
+  transition: 2s;
 }
 
-
+@media (min-width: 1011px) {
+  .container-mobile.menu-open {
+    opacity: 0;
+  }
+}
